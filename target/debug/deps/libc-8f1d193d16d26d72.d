@@ -1,0 +1,11 @@
+C:\Users\sayer\OneDrive\Bureau\Master Project\tetra\target\debug\deps\libc-8f1d193d16d26d72.rmeta: C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\lib.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\macros.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\fixed_width_ints.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\mod.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\msvc\mod.rs
+
+C:\Users\sayer\OneDrive\Bureau\Master Project\tetra\target\debug\deps\liblibc-8f1d193d16d26d72.rlib: C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\lib.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\macros.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\fixed_width_ints.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\mod.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\msvc\mod.rs
+
+C:\Users\sayer\OneDrive\Bureau\Master Project\tetra\target\debug\deps\libc-8f1d193d16d26d72.d: C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\lib.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\macros.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\fixed_width_ints.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\mod.rs C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\msvc\mod.rs
+
+C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\lib.rs:
+C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\macros.rs:
+C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\fixed_width_ints.rs:
+C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\mod.rs:
+C:\Users\sayer\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.150\src\windows\msvc\mod.rs:
