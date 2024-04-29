@@ -191,13 +191,14 @@ async fn run_scan_over_duration(start_after_duration: u64, scan_duration: u64) -
                             "freq": freq as f64 / 1_000_000.0,
                             "strength": max,
                             "sample_count": raw_samples.len(),
-                            "tetra_durations": "",
+                            "tetra_durations": format!("{}-{}", current_time, current_time + 1)
+
                         }));
                         new_index
                     });
 
                     let detection = &mut freq_data_vec[freq_index];
-                    let durations_str = detection["durations"].as_str().unwrap_or("");
+                    let durations_str = detection["tetra_durations"].as_str().unwrap_or("");
                     let new_duration = if durations_str.is_empty() {
                         format!("{}-{}", current_time, current_time + 1)
                     } else {
