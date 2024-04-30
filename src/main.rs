@@ -113,7 +113,7 @@ async fn run_instant_scan() -> Result<(), Box<dyn std::error::Error>> {
             .copied();
 
         if let Some(max) = max_strength {
-            if max > 49.0 {
+            if max > 39.0 {
                 println!("Signal detected: true");
                 results.insert(
                     count.to_string(),
@@ -183,7 +183,7 @@ async fn run_scan_over_duration(start_after_duration: u64, scan_duration: u64) -
             let max_strength = signal_strengths_db.iter().max_by(|a, b| a.partial_cmp(b).unwrap_or(std::cmp::Ordering::Equal)).copied();
 
             if let Some(max) = max_strength {
-                if max > 49.0 {
+                if max > 39.0 {
                     let current_time = Instant::now().duration_since(scan_start_time).as_secs();
                     let freq_index = *freq_id_map.entry(freq).or_insert_with(|| {
                         let new_index = freq_data_vec.len();
@@ -191,7 +191,7 @@ async fn run_scan_over_duration(start_after_duration: u64, scan_duration: u64) -
                             "freq": freq as f64 / 1_000_000.0,
                             "strength": max,
                             "sample_count": raw_samples.len(),
-                            "tetra_durations": format!("{}-{}", current_time, current_time + 1)
+                            "tetra_durations": ""
 
                         }));
                         new_index

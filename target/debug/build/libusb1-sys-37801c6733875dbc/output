@@ -1,7 +1,7 @@
 Can't find libusb pkg: VcpkgNotFound("No vcpkg installation found. Set the VCPKG_ROOT environment variable or run 'vcpkg integrate install'")
 cargo:vendored=1
 cargo:static=1
-cargo:include=D:\Master Projet\tetra\target\debug\build\libusb1-sys-37801c6733875dbc\out\include
+cargo:include=D:\Master Projet\tetra_module\target\debug\build\libusb1-sys-37801c6733875dbc\out\include
 cargo:rustc-link-lib=dylib=user32
 TARGET = Some("x86_64-pc-windows-msvc")
 OPT_LEVEL = Some("0")
@@ -234,5 +234,5 @@ HOST_ARFLAGS = None
 cargo:rerun-if-env-changed=ARFLAGS
 ARFLAGS = None
 cargo:rustc-link-lib=static=usb
-cargo:rustc-link-search=native=D:\Master Projet\tetra\target\debug\build\libusb1-sys-37801c6733875dbc\out
+cargo:rustc-link-search=native=D:\Master Projet\tetra_module\target\debug\build\libusb1-sys-37801c6733875dbc\out
 cargo:version_number=1.0.24
