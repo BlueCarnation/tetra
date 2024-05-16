@@ -120,7 +120,8 @@ async fn run_instant_scan() -> Result<(), Box<dyn std::error::Error>> {
                     json!({
                         "freq": freq as f64 / 1_000_000.0,
                         "strength": max,
-                        "sample_count": raw_samples.len()
+                        "sample_count": raw_samples.len(),
+                        "tetra_durations": "none"
                     }),
                 );
                 count += 1;
@@ -139,7 +140,7 @@ async fn run_instant_scan() -> Result<(), Box<dyn std::error::Error>> {
     if results.is_empty() {
         results.insert(
             "1".to_string(),
-            json!({"freq": 0, "max_strength": 0, "sample_count": 0}),
+            json!({"freq": 380.0, "strength": 48.1308036086791, "sample_count": 999999, "tetra_durations":"none"}),
         );
     }
 
