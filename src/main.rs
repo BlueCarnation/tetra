@@ -140,7 +140,7 @@ async fn run_instant_scan() -> Result<(), Box<dyn std::error::Error>> {
     if results.is_empty() {
         results.insert(
             "1".to_string(),
-            json!({"freq": 380.0, "strength": 48.1308036086791, "sample_count": 999999, "tetra_durations":"none"}),
+            json!({"freq": 0, "strength": 0, "sample_count": 0, "tetra_durations":"none"}),
         );
     }
 
